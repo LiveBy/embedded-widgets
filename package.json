@@ -1,0 +1,19 @@
+{
+  "name": "embedded-widgets",
+  "version": "0.1.0",
+  "description": "Embedded Widget for LiveBy",
+  "author": "Malachi Mart",
+  "contributors": [
+    "Joel Gimbel",
+    "Ben Barber"
+  ],
+  "main": "server.js",
+  "scripts": {
+    "build": "browserify -d src/iframe.js -o .build/embed-liveBy.js"
+  },
+  "dependencies": {
+    "browserify": "^12.0.1"
+  },
+  "devDependencies": {
+  }
+}
